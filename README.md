@@ -34,7 +34,7 @@ The outcomes are designed to support decisions such as targeted credit offers, m
 1. *What is it?*
 Linear regression models the relationship between an outcome (target) and one or more input variables by estimating how a unit change in each input is associated with a change in the outcome. Practically: it gives a simple formula that predicts a numeric value from a weighted sum of features.
 
-2. *Where it fits in Cardora?* 
+2. *Where it fits in Cardora?*
 Linear regression is used to forecast a continuous spending-related target (for example, next month’s bill or balance) from customer features and recent billing/payment history. It forms the predictive backbone of the project and provides interpretable coefficients.
 
 3. *Why it was chosen?*
