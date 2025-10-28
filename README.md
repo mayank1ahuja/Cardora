@@ -17,5 +17,5 @@ To explore this, data from the UCI Default of Credit Card Clients Dataset was an
 
 ## Data Source
 - **Source:** UCI Default of Credit Card Clients dataset 
-- ![Dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
+- !{Dataset}(https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
 - This public dataset contains 30,000 credit card customer records from Taiwan. It is available in Excel format and includes 23 fields per record. Each entry represents one customer and captures demographic attributes such as gender, education, marital status, and age, along with credit limit, billing amounts, and payment histories over six months.
