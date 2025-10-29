@@ -4,6 +4,21 @@
 ## `TL;DR`
 Cardora is a compact analytics project that translates customer credit-card records into practical insights about spending behaviour and credit risk. The analysis uses structured preprocessing, descriptive exploration, interpretable feature engineering, and regression-based predictive modeling to forecast credit utilisation and surface early warning signals. Deliverables include four reproducible notebooks, a cleaned dataset, model artifacts, and a set of visualizations.
 
+## `Contents`
+- [Project Overview](#project-overview)
+- [Background and Motivation](#background-and-motivation)
+- [Data Source](#data-source)  
+- [Objectives](#objectives)  
+- [Linear Regression](#linear-regression)  
+- [Methodology)](#methodology)  
+- [Modeling](#modeling)  
+- [Risk Analytics](#risk-analytics)
+- [Visual Highlights](#visual-highlights)
+- [Key Findings](#key-findings)  
+- [Deliverables](#deliverables)
+- [Impact and Skills Demonstrated](#impact-and-skills-demonstrated)
+- [Author](#author)
+
 ## `Project Overview`
 Cardora examines how customer demographics, account attributes, and recent payment activity combine to influence credit utilisation and short-term spending. The project blends data preparation, exploratory analysis, feature engineering, and a regression-based predictive model to generate forecasts and identify customers whose behaviour departs from expected norms.
 
@@ -140,6 +155,15 @@ By framing metrics around deciles, lifts, and behavioural composites, the analys
 - Transparent and rules-based screening.
 
 ## `Visual Highlights`
+
+### 💳 Exploratory Data Analysis Plot: Distribution of Target
+![](https://github.com/mayank1ahuja/Cardora/blob/84ed64e7ffdf5aae369743144b95579fa88d7011/assets/exploratory%20data%20analysis%20plots/Distribution%20of%20Target.png)
+
+### 💳 Modeling Plot: Actual v/s Predicted Values
+![](https://github.com/mayank1ahuja/Cardora/blob/84ed64e7ffdf5aae369743144b95579fa88d7011/assets/modeling%20plots/Actual%20vs%20Predicted%20Values.png)
+
+### 💳 Risk Analytics Plot: Billing Trend v/s Utilization
+![](https://github.com/mayank1ahuja/Cardora/blob/84ed64e7ffdf5aae369743144b95579fa88d7011/assets/risk%20analytics%20plots/Billing%20Trend%20vs%20Utilization.png)
 
 
 ## `Key Findings`
