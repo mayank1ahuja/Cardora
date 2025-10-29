@@ -1,26 +1,25 @@
 ![Project Header](https://github.com/mayank1ahuja/Cardora/blob/31534f693710b3f4a812962a71bcd8740ee9c9ff/images/project%20header.png)
 # Cardora: Predictive Credit Utilisation and Risk Analytics
 
-## TL;DR
+## `TL;DR`
 Cardora is a compact analytics project that translates customer credit-card records into practical insights about spending behaviour and credit risk. The analysis uses structured preprocessing, descriptive exploration, interpretable feature engineering, and regression-based predictive modeling to forecast credit utilisation and surface early warning signals. Deliverables include four reproducible notebooks, a cleaned dataset, model artifacts, and a set of visualizations.
 
-## Project Overview
+## `Project Overview`
 Cardora examines how customer demographics, account attributes, and recent payment activity combine to influence credit utilisation and short-term spending. The project blends data preparation, exploratory analysis, feature engineering, and a regression-based predictive model to generate forecasts and identify customers whose behaviour departs from expected norms.
 
 This work is intended as a portfolio case study: a practical demonstration of how structured analytics and clear interpretation can support risk-aware decision making.
 
-## Background and Motivation
+## `Background and Motivation`
 Managing credit utilization and assessing financial risk have become critical challenges in modern consumer finance. The increasing volume of credit card users, combined with diverse spending and repayment behaviors, has made it difficult for institutions to predict potential defaults and maintain healthy credit portfolios. This creates operational risks that affect both lenders and consumers alike.
 
 To explore this, data from the UCI Default of Credit Card Clients Dataset was analyzed which includes demographic information, billing histories, payment behaviors, and credit limits. By examining these patterns, the project aims to identify key indicators of financial risk and better understand how utilization trends relate to repayment outcomes.
 
-
-## Data Source
+## `Data Source`
 - **Source:** UCI Default of Credit Card Clients dataset 
 - [**Dataset**](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
 - This public dataset contains 30,000 credit card customer records from Taiwan. It is available in Excel format and includes 23 fields per record. Each entry represents one customer and captures demographic attributes such as gender, education, marital status, and age, along with credit limit, billing amounts, and payment histories over six months.
 
-## Objectives
+## `Objectives`
 Cardora answers these business questions:
 
 1. Which customer attributes and recent behaviours help predict short-term credit utilisation or balances?  
@@ -29,7 +28,7 @@ Cardora answers these business questions:
 
 The outcomes are designed to support decisions such as targeted credit offers, monitoring thresholds, and prioritised outreach.
 
-## Linear Regression
+## `Linear Regression`
 
 ### 1. What is it?
 Linear regression models the relationship between an outcome (target) and one or more input variables by estimating how a unit change in each input is associated with a change in the outcome. Practically: it gives a simple formula that predicts a numeric value from a weighted sum of features.
@@ -54,7 +53,7 @@ Linear regression is used to forecast a continuous spending-related target (for 
 ### 5. What this achieves?
 An interpretable prediction formula and concrete signals (coefficients + residual diagnostics) that can be used to highlight customers whose observed behaviour differs materially from the model’s expectation serving as a practical proxy for anomalous or risky behaviour.
 
-## Methodology
+## `Methodology`
 
 The project followed a clear and structured analytical workflow designed to turn raw credit card data into meaningful, decision-ready insights. Each step was developed with an emphasis on interpretability, data quality, and practical relevance.  
 
@@ -79,7 +78,7 @@ Model predictions and engineered features were combined to form a structured ris
 ### 7. Evaluation & Interpretation  
 The model’s accuracy and reliability were evaluated using standard metrics like **R²**, **RMSE**, and **MAE**. Residual plots and cross-validation confirmed model consistency. Finally, results were interpreted in a business context, for example, customers with high utilisation and increasing bill trends were flagged as higher risk. These insights bridged the gap between statistical results and practical decision-making.
 
-## Modeling
+## `Modeling`
 
 This section outlines the model design, training, and evaluation pipeline exactly as implemented in the notebook, aligning technical choices with practical interpretability.
 
