@@ -53,3 +53,29 @@ Linear regression is used to forecast a continuous spending-related target (for 
 
 ### 5. What this achieves?
 An interpretable prediction formula and concrete signals (coefficients + residual diagnostics) that can be used to highlight customers whose observed behaviour differs materially from the model’s expectation serving as a practical proxy for anomalous or risky behaviour.
+
+## Methodology
+
+The project followed a clear and structured analytical workflow designed to turn raw credit card data into meaningful, decision-ready insights. Each step was developed with an emphasis on interpretability, data quality, and practical relevance.  
+
+### 1. Data Ingestion & Initial Validation  
+The process began with loading over 30,000 customer records from the UCI credit card dataset into a clean working environment. Basic schema checks and column validations were performed to ensure the data was properly formatted, consistent, and ready for subsequent analysis.
+
+### 2. Data Preprocessing & Cleaning  
+Before modeling, the dataset was refined to achieve stability and accuracy. Column names were standardized, categorical fields such as education and marital status were encoded numerically, and missing or extreme values were reviewed. This ensured the data remained reliable and interpretable while minimizing noise and inconsistencies that could distort downstream insights.
+
+### 3. Feature Engineering  
+Derived variables were created to capture key behavioural patterns that are not visible in the raw data. Examples include the **utilisation ratio** (credit used relative to limit), **average bill and payment amounts** over six months, and the **slope of bill trends** to show whether spending is increasing or stabilizing. These indicators were combined into a **composite risk score**, providing a clearer picture of customer behaviour and supporting both the model and visual analytics.
+
+### 4. Exploratory Data Analysis (EDA)  
+Exploratory analysis was carried out to better understand customer segments and variable relationships. Using Altair visualizations, the analysis examined utilisation distributions, bill trajectories, and repayment behaviours across different demographic and behavioural groups. The goal was to identify meaningful trends and prepare a solid foundation for the modeling stage.
+
+### 5. Modeling  
+Linear Regression was used as the main predictive model due to its interpretability and ability to highlight feature impact. The approach balanced statistical robustness with clarity, making it easier to explain how each input influences predicted risk levels.
+
+### 6. Risk Analytics & Scoring  
+Model predictions and engineered features were combined to form a structured risk assessment system. Customers were grouped into **Low**, **Medium**, and **High-risk categories** using decile-based scoring. Interactive Altair dashboards displayed lift and capture curves, utilisation trends, and behavioural clusters, allowing risk analysts and stakeholders to explore results visually.
+
+### 7. Evaluation & Interpretation  
+The model’s accuracy and reliability were evaluated using standard metrics like **R²**, **RMSE**, and **MAE**. Residual plots and cross-validation confirmed model consistency. Finally, results were interpreted in a business context, for example, customers with high utilisation and increasing bill trends were flagged as higher risk. These insights bridged the gap between statistical results and practical decision-making.
+
