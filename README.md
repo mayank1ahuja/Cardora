@@ -183,6 +183,13 @@ The project deliverables form a complete, reproducible **credit risk analytics w
 - **Exploratory Data Analysis (EDA):** Behavioral profiling through Seaborn visualizations.  
 - **Modeling:** Linear Regression model built for explainable forecasting supported by diagnostics, coefficient review, and feature interpretation.  
 - **Risk Analytics:** Translation of model outputs into operational risk signals visualized through Altair.
+  
+### 💳 Documentation and Supporting Artifacts
+
+- **`risk_analytics.pdf`** — a fully rendered notebook combining visualizations, analytical commentary, and risk segmentation outputs.
+- **`model_artifacts.md`** — documents the modeling approach, key design decisions, and evaluation metrics.
+- **`insights_summary.md`** — distills the principal business insights, highlighting behavioral and financial factors driving predicted risk.  
+- **Plot Image Set:** Curated static exports of visualizations from EDA, Modeling, and Risk Analytics notebooks.
 
 ## `Impact and Skills Demonstrated`
 
