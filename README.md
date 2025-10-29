@@ -114,3 +114,30 @@ This modeling approach is both **interpretable and operationally relevant**.
 The regression outputs provide direct financial forecasts that can inform **credit limit management**, **risk monitoring**, and **early intervention strategies**.  
 By combining simplicity with transparency, the model builds confidence among stakeholders while providing a clear foundation for future enhancements (e.g., incorporating regularization or non-linear terms).
 
+## `Risk Analytics`
+
+### Purpose
+To translate model predictions and behavioral indicators into meaningful, interpretable signals that support decision-making in credit operations and portfolio monitoring.
+
+### What we generate 
+Derived variables were created to capture behavioural patterns not directly visible in the raw data. Examples include the **utilisation ratio** (credit used relative to limit), **average bill and payment amounts** across six months, and the **slope of bill trends**, which reflects whether spending behaviour is rising or stabilising.  
+These features, along with regression-based forecasts, were integrated into a **composite risk score**, offering a more complete representation of customer behaviour.  
+
+The resulting risk scores were segmented into **deciles** and further classified into **risk flags** (Low / Medium / High) to enable tiered risk management. Supporting these, **decile lift and capture curves** quantify how efficiently high-score segments capture defaults or anomalous repayment behaviours.  
+
+### Visualisation layer 
+Altair-powered interactive charts allow seamless exploration — a scatter plot paired with linked histograms highlights utilisation spikes, repayment irregularities, and clusters of high-risk customers, helping analysts visually validate model signals.
+
+### How this fits the pipeline
+This module forms the interpretability bridge between regression outputs and operational strategy.  
+While model predictions estimate *likelihood of default*, risk analytics articulate *who* to monitor and *why*.  
+By framing metrics around deciles, lifts, and behavioural composites, the analysis translates statistical forecasts into practical monitoring strategies.
+
+### What the risk outputs enable
+- Prioritised monitoring and outreach to top-risk deciles.  
+- Early-warning indicators.
+- Transparent and rules-based screening.
+
+
+
+
