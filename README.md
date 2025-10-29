@@ -10,7 +10,7 @@ Cardora is a compact analytics project that translates customer credit-card reco
 - [Data Source](#data-source)  
 - [Objectives](#objectives)  
 - [Linear Regression](#linear-regression)  
-- [Methodology)](#methodology)  
+- [Methodology](#methodology)  
 - [Modeling](#modeling)  
 - [Risk Analytics](#risk-analytics)
 - [Visual Highlights](#visual-highlights)
