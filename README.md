@@ -139,6 +139,9 @@ By framing metrics around deciles, lifts, and behavioural composites, the analys
 - Early-warning indicators.
 - Transparent and rules-based screening.
 
+## `Visual Highlights`
+
+
 ## `Key Findings`
 
 - **Credit utilisation emerged as the most powerful signal** of elevated balances and potential repayment strain, consistently driving higher predicted risk levels.  
@@ -174,5 +177,10 @@ This project exemplifies the ability to translate **credit card behavior data in
 
 Overall, the project highlights **practical modeling literacy, business framing ability, and visual communication skills** — all within a single, self-contained Python environment.
 
-
+## `Author`
+### **Mayank Ahuja**  
+- Email: ahuja.1mayank@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/mayank1ahuja/  
+- GitHub: https://github.com/mayank1ahuja
+- X: https://x.com/maxsiie
 
