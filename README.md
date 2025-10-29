@@ -83,19 +83,19 @@ The model’s accuracy and reliability were evaluated using standard metrics lik
 
 This section outlines the model design, training, and evaluation pipeline exactly as implemented in the notebook, aligning technical choices with practical interpretability.
 
-### Model Choice  
+### 1. Model Choice  
 The model uses **Ordinary Least Squares (Linear Regression)** as its core predictive engine.  
 This approach was selected for its interpretability, stability on structured numerical data, and its ability to produce transparent coefficients that directly quantify how each feature influences the outcome.
 
-### Target Definition  
+### 2. Target Definition  
 The target variable is **`bill_amt1`**, representing the **next month’s billing amount** for a customer.  
 This variable was chosen because it captures short-term financial behavior, offering actionable insight into customer spending and repayment tendencies. Predicting this value allows credit analysts to anticipate upcoming utilization and flag potential overexposure.
 
-### Feature Set  
+### 3. Feature Set  
 The input matrix `X` includes demographic attributes, account-level details (such as credit limit), recent bill and payment histories, and engineered behavioral indicators derived from six-month trends.  
 These features collectively describe **who the customer is**, **their spending capacity**, and **how their repayment behavior is evolving** — ensuring that the model captures both static and dynamic aspects of financial behavior.
 
-### Training Pipeline  
+### 4. Training Pipeline  
 The workflow follows a structured pipeline:
 1. **Data Preparation:** Split the dataset into input (`X`) and target (`y`) variables to ensure clear separation of predictors and outcomes, avoiding data leakage.  
 2. **Train/Test Split:** Divide the data into training and testing subsets to validate real-world generalization, typically using an 80/20 ratio.  
@@ -103,14 +103,14 @@ The workflow follows a structured pipeline:
 4. **Diagnostics:** Inspect coefficient signs and magnitudes to ensure alignment with domain logic — for instance, higher utilization ratios should reasonably predict higher billing amounts.  
 5. **Validation:** Assess performance on the hold-out test set to ensure robust generalization.
 
-### Evaluation Metrics and Interpretation  
+### 5. Evaluation Metrics and Interpretation  
 The model’s effectiveness is evaluated using standard regression metrics:
 - **R²:** Measures how much of the variance in billing amounts is explained by the features.  
 - **RMSE / MAE:** Quantify average prediction error in practical (monetary) units.  
 - **Residual Analysis:** Checks for heteroscedasticity and ensures the model doesn’t systematically underpredict or overpredict extreme values.  
 - **Coefficient Review:** Confirms interpretability and the expected directional influence of each predictor, a critical requirement for business trust.
 
-### Why This Modeling Approach Works  
+### 6. Why This Modeling Approach Works  
 This modeling approach is both **interpretable and operationally relevant**.  
 The regression outputs provide direct financial forecasts that can inform **credit limit management**, **risk monitoring**, and **early intervention strategies**.  
 By combining simplicity with transparency, the model builds confidence among stakeholders while providing a clear foundation for future enhancements (e.g., incorporating regularization or non-linear terms).
