@@ -20,7 +20,7 @@ The model uses a curated blend of static and behavioral features:
 - **Engineered metrics:**
   - Utilization Ratio = `bill_amt1 / limit_bal`
   - Average Bill & Total Payment (6m)
-  - Bill Trend Slope — linear regression on bill amounts
+  - Bill Trend Slope: linear regression on bill amounts
   - Composite Risk Score — normalized aggregate of utilization and trend signals
 
 Together, these features capture both *who* the customer is and *how* their behavior evolves.
