@@ -1,18 +1,18 @@
 # Insights Summary
 
-## Introduction
+## `Introduction`
 This report provides a clear, visual summary of insights derived from the customer risk analytics dataset.  
 Each chart explains a different aspect of customer behavior from credit utilization to billing trends and risk segmentation.  
 The goal is to make complex data understandable and useful for decision-making **without requiring deep technical or financial knowledge**.
 
-# About the Data
+## `About the Data`
 
 The dataset contains information about customers’ account activity, including balance amounts, credit limits, payment behavior, and other related details.
 Each entry represents one customer profile, showing how they use and manage their credit over time.
 
 Several new columns were created through data processing to help visualize customer behavior such as utilization (the share of used credit), slope (the direction of balance change), and a composite risk score that combines multiple factors.
 
-# Visual Insights 
+## `Visual Insights`
 
 ## 1. `Distribution of Credit Utilization Among Customers`
 *Shows how customers use their available credit limits.*
@@ -78,7 +78,7 @@ The color gradient visually transitions from **low to high risk**,
 showing that most customers fall within the safe zone, but a smaller cluster lies toward the high-risk end.  
 This helps in identifying segments that need **targeted risk monitoring**.
 
-## Insights & Key Takeaways
+## `Insights & Key Takeaways`
 - **Credit utilization** is a strong and consistent indicator of customer risk.  
 - **Billing behavior** stability reflects repayment reliability.  
 - **Risk segmentation** helps prioritize monitoring and engagement strategies.  
