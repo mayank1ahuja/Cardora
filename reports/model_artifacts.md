@@ -46,18 +46,14 @@ The model achieves solid explanatory performance, with strong interpretability f
 
 ## `Visual Artifacts`
 
-### Coefficient Impact Plot  
-Shows each feature’s contribution to the target prediction.  
-High utilization and upward bill slope have the most positive weight, confirming expected financial behavior patterns.
+### 1. Predicted v/s Actual Values 
+![](https://github.com/mayank1ahuja/Cardora/blob/dddc08c1a23b951d7a04ba034a5514649cd6c14c/assets/modeling%20plots/Actual%20vs%20Predicted%20Values.png)
 
-### Predicted vs. Actual Plot  
-Compares model predictions against actual values, assessing fit quality.  
-A tight alignment around the diagonal line indicates robust predictive consistency.
+### 2. Feature Influence on Credit Utilization
+![](https://github.com/mayank1ahuja/Cardora/blob/dddc08c1a23b951d7a04ba034a5514649cd6c14c/assets/modeling%20plots/Feature%20Influence%20on%20Credit%20Utilization.png)
 
-### Residual Distribution Plot  
-Visualizes residual errors to check model bias and variance stability.  
-A near-symmetric bell shape suggests unbiased performance across ranges.
-
+### 3. Residual vs Predicted Values
+![](https://github.com/mayank1ahuja/Cardora/blob/dddc08c1a23b951d7a04ba034a5514649cd6c14c/assets/modeling%20plots/Residual%20vs%20Predicted%20Values.png)
 
 ## `Interpretation`
 The regression model provides **transparent outputs**:
