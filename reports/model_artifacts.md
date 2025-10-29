@@ -5,8 +5,8 @@ This section documents the model design, evaluation process, and key visual diag
 The modeling phase converts engineered behavioral and demographic features into an interpretable, data-driven prediction framework.
 
 ## `Model Choice`
-**Primary model:** *Ordinary Least Squares (Linear Regression)*  
-**Rationale:** Offers coefficient interpretability, stability for structured numeric data, and clear insight into the direction and strength of predictors.
+- **Primary model:** *Ordinary Least Squares (Linear Regression)*  
+- **Rationale:** Offers coefficient interpretability, stability for structured numeric data, and clear insight into the direction and strength of predictors.
 
 The goal was **explainability**, allowing business teams to trace *why* certain behaviors (e.g., high utilization or rising bills) increase financial risk.
 
