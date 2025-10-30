@@ -1,5 +1,5 @@
 ![Project Header](https://github.com/mayank1ahuja/Cardora/blob/31534f693710b3f4a812962a71bcd8740ee9c9ff/images/project%20header.png)
-# Cardora: Predictive Credit Utilisation and Risk Analytics
+# Cardora: Predictive Credit Utilization and Risk Analytics
 
 ## `TL;DR`
 Cardora is a compact analytics project that translates customer credit-card records into practical insights about spending behaviour and credit risk. The analysis uses structured preprocessing, descriptive exploration, interpretable feature engineering, and regression-based predictive modeling to forecast credit utilisation and surface early warning signals. Deliverables include four reproducible notebooks, a cleaned dataset, model artifacts, and a set of visualizations.
